@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  text-align: center;
+  /* font-size: 2em; */
+  /* this is a parent class if we change font size in body size will change also in heading and will increase so to get rid of that we use "rem" */
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* font-size: 100%; here; 100% = 16px(1600)
+                if i want 90px then = 9000%16= 562.5% ; and we alwya shave to  define size in % so to get dynamc size where user cahnge according its prfrnve */
+  /* font-size: 562.5%; here; all profesiional website uses "em" for giving particular size where : 16px=100%=1em;
+  so if i want to write 562.5% in to em= "5.625em" */
+  font-size: 5.625rem;
+  /* by these way we have to use and we will get the same size we want */
+  color: #66BFBF;
+  line-height: 2;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+.footer-link {
+  color: #66BFBF;
+}
+
+.web {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.laptop {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.keval {
+  margin-top: 30px;
+  width: 20%;
+}
+
+span {
+  font-weight: normal;
+}
+
+.top-container {
+  padding-top: 150px;
+  background-color: #EAF6F6;
+}
+
+.botom-container {
+  background-color: #66BFBF;
+  line-height: 72px;
+  height: 145px
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.footer {
+  color: #EAF6F6;
+}
+
+hr {
+  width: 5%;
+  border-top-style: dotted;
+  border-width: 7px;
+  color: grey;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 80px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 200px;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  height: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  font-family: Arial;
+  width: 137px;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 5px;
+  background-color: #11999E;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #1E62D0;
+  border: solid #000000 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
